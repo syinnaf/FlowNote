@@ -1,4 +1,4 @@
-# Link & Capture — Main
+# FLOWNOTE
 
 A modern, minimal landing-page project scaffolded with **Vite + React + TypeScript + Tailwind CSS**.
 It showcases a clean, design-tool–inspired layout with SVG-only graphics, split views, and strong typographic hierarchy—ideal for product showcases and marketing pages.
