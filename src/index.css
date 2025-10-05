@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Base colors */
+    --background: 0 0% 98%;
+    --foreground: 227 57% 10%;
+
+    /* FlowNote brand colors */
+    --primary: 227 57% 10%; /* Deep navy */
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 195 100% 50%; /* Aqua blue */
+    --secondary-foreground: 0 0% 100%;
+
+    /* Soft background tones */
+    --mint: 127 100% 94%; /* Pastel mint green */
+    --sky: 202 100% 92%; /* Light sky blue */
+    --warm: 0 0% 98%; /* Warm off-white */
+    
+    /* Vibrant accents */
+    --accent-aqua: 195 100% 50%; /* Aqua blue */
+    --accent-coral: 5 100% 75%; /* Coral pink */
+    --accent-lime: 65 100% 74%; /* Lime yellow */
+    --accent-orange: 30 100% 63%; /* Sunset orange */
+    --accent-purple: 266 100% 50%; /* Royal purple */
+
+    --card: 0 0% 100%;
+    --card-foreground: 227 57% 10%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 227 20% 40%;
+
+    --accent: 202 100% 92%;
+    --accent-foreground: 227 57% 10%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 195 100% 50%;
+
+    --radius: 0.75rem;
+
+    /* Custom gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(202, 100%, 92%), hsl(127, 100%, 94%));
+    --gradient-cta: linear-gradient(135deg, hsl(195, 100%, 50%), hsl(266, 100%, 50%));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
