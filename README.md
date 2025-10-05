@@ -81,17 +81,8 @@ components.json
 
 ### 1️⃣ See Online (Recommended)
 
-Deploy with Vercel in one click:
-
-1. Create a new project on **Vercel**
-2. Import this repository
-3. Framework preset: **Vite**
-4. Build command: `vite build`
-5. Output directory: `dist`
-6. Click **Deploy**
-
-> After deploy, set your domain and enable analytics/caching as desired.
-
+The is deployed on Vercel and available at:
+https://flow-note-delta.vercel.app/
 ---
 
 ### 2️⃣ Run Locally (For Developers)
